@@ -316,7 +316,7 @@ client.on('message', message => {
     if (message.content === '1help') {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر الميوزك...**')
-        .setDescription('**برفكس البوت (X)**')
+        .setDescription('**برفكس البوت (1)**')
         .addField('play', 'لتشغيل اغنية')
         .addField('join', 'دخول رومك الصوتي')
         .addField('disconnect', 'الخروج من رومك الصوتي')
@@ -344,12 +344,12 @@ client.on('message', message => {
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Music Bot- Script By : SAJED`);
+      console.log(`Shelp - Script By : SAJED`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : SAJED ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By :SAJED ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`1play`,"http://twitch.tv/Toxic Codes")
+client.user.setGame(`Splay `,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
