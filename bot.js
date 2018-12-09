@@ -344,12 +344,12 @@ client.on('message', message => {
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`1PLAY - Script By : SAJED`);
+      console.log(`Music Bot- Script By : SAJED`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : SAJED` ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : SAJED ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`1help `,"http://twitch.tv/Death Shop")
+client.user.setGame(`1play`,"http://twitch.tv/Toxic Codes")
 client.user.setStatus("dnd")
 });
 
